@@ -1,8 +1,8 @@
-# Apply Adjustments V2
+# Apply Adjustments
 
 ## Overview
 
-This command guides the AI to apply the adjustments that were previously suggested, discussed, or agreed upon. The goal is to transform the discussion into code, fully respecting the project guidelines and ensuring fidelity to the request without exceeding the scope.
+Carefully analyze and apply the adjustments that were previously suggested, discussed, or agreed upon. The goal is to transform the discussion into code, fully respecting the project guidelines and ensuring fidelity to the request without exceeding the scope.
 
 ## Steps
 
@@ -19,7 +19,7 @@ This command guides the AI to apply the adjustments that were previously suggest
     - Confirm that all discussed items have been addressed.
     - Ensure that no out-of-scope changes were introduced.
 
-## Apply V2 Checklist
+## Apply Checklist
 
 - [ ] Conversation context reviewed and understood
 - [ ] Project guidelines consulted and respected
