@@ -2,7 +2,7 @@
 
 ## Overview
 
-Execute the suggested or discussed adjustments. Translate the conversation into code with strict adherence to project guidelines and scope.
+Carefully analyze and apply the adjustments that were previously suggested, discussed, or agreed upon. The goal is to transform the discussion into code, fully respecting the project guidelines and ensuring fidelity to the request without exceeding the scope.
 
 ## Steps
 
