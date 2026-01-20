@@ -2,26 +2,26 @@
 
 ## Overview
 
-Perform a fast but effective sanity check on recent changes. Ensure adherence to project guidelines, removing redundancies, and verifying that nothing was missed or added by mistake. 
+Verify recent changes for compliance, cleanliness, and logical correctness.
 
 ## Steps
 
-1. **Project Standards Check**
+1. **Standards Check**
     - Verify strict adherence to project guidelines (e.g., `.cursor/rules/dev/development.mdc`).
-    - Ensure file naming, folder structure, and formatting match the project's conventions.
-2. **Cleanup & Redundancy**
-    - Identify and remove unused imports, variables, or "dead code".
-    - Check for accidental artifacts (console logs, temporary comments, AI-generated slop).
-    - Ensure no code was added outside the requested scope.
-3. **Logical Sanity Check**
-    - Briefly verify that the changes actually solve the requested task.
-    - Check for obvious omissions or edge cases that were forgotten.
-    - Ensure code simplicity (no over-engineering).
+    - Confirm naming, structure, and formatting conventions.
+2. **Cleanup**
+    - Remove unused imports, variables, and dead code.
+    - Eliminate accidental artifacts (logs, temp comments, AI slop).
+    - Verify scope (ensure no unrequested additions).
+3. **Sanity Check**
+    - Verify changes address the requested task.
+    - Check for obvious omissions or forgotten edge cases.
+    - Ensure code simplicity.
 
 ## Quick Review Checklist
 
-- [ ] Project guidelines and conventions respected
-- [ ] No redundancies, unused code, or accidental artifacts found
-- [ ] Scope respected (nothing added by mistake)
-- [ ] Task requirements met (nothing forgotten)
-- [ ] Code is clean and idiomatic
+- [ ] Guidelines and conventions respected
+- [ ] Code cleaned (no redundancy/artifacts)
+- [ ] Scope maintained
+- [ ] Task requirements met
+- [ ] Code is idiomatic
