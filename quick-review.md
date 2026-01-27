@@ -11,12 +11,14 @@ Verify recent changes for compliance, cleanliness, and logical correctness.
     - Confirm naming, structure, and formatting conventions.
 2. **Cleanup**
     - Remove unused imports, variables, and dead code.
-    - Eliminate accidental artifacts (logs, temp comments, AI slop).
+    - Eliminate accidental artifacts (AI slop).
     - Verify scope (ensure no unrequested additions).
 3. **Sanity Check**
     - Verify changes address the requested task.
     - Check for obvious omissions or forgotten edge cases.
     - Ensure code simplicity.
+    
+Important: Do not remove comments that describe functions, variables or logical flows on the code, as they are part of the application.  
 
 ## Quick Review Checklist
 
