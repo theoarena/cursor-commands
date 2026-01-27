@@ -2,7 +2,7 @@
 
 ## Overview
 
-Refactor the selected code to improve its quality while maintaining the same functionality, providing the refactored code with explanations of the improvements made.
+Refactor the selected code to improve its quality while maintaining the same functionality, legibility and coherence.
 
 ## Steps
 
@@ -11,6 +11,7 @@ Refactor the selected code to improve its quality while maintaining the same fun
     - Eliminate code duplication
     - Improve variable and function naming
     - Simplify complex logic and reduce nesting
+    - Keep the system cohesive and integrated 
 2. **Performance Optimizations**
     - Identify and fix performance bottlenecks
     - Optimize algorithms and data structures

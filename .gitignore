@@ -57,3 +57,8 @@ temp/
 # Cache directories
 .cache/
 .parcel-cache/
+/extensions
+/worktrees
+/projects
+/skills-cursor
+/plans
