@@ -45,4 +45,3 @@ Communication style:
 - Use clear English in explanations, but keep file names, function names, and code snippets in the language they are written in.  
 - Do not literally execute chat commands (`/quick-review`, `/refactor-code`); instead, **simulate what those commands would do** by following the checklists described here.
 
-

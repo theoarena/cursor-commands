@@ -1,7 +1,6 @@
 ---
-description: Guidelines for Laravel + Inertia + React development
-globs: **/*
-alwaysApply: true
+name: development
+description: Global development rules and architectural patterns for Laravel + Inertia + React stack. Always apply when developing with Laravel, Inertia, or React, working with controllers, models, services, managers, React components, Inertia pages, hooks, or when implementing features in Laravel + Inertia + React projects. Defines strict architectural flows (Controller → Manager → Service → Model for backend, Component → Hook → Service for frontend), form handling with Inertia forms, validation patterns, and coding standards for the full stack.
 ---
 
 # Global Development Rules
