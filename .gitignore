@@ -64,3 +64,5 @@ temp/
 /plans
 ide_state.json
 /ai-tracking
+mcp.json
+argv.json
