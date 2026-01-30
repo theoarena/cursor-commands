@@ -1,0 +1,35 @@
+---
+description: Project overview and entry point - stack, general rules, workflows, actions and required documentation
+alwaysApply: true
+---
+
+# Project Overview (Summary)
+
+This rule is a table of contents. Use it to get a quick overview and know where to look for details; other rules and skills cover the specifics.
+
+## Technology Stack
+
+- Laravel, React, Inertia, Vite, Tailwind, Shadcn
+
+## Required Skills
+
+The following skills must always be consulted when working on this project:
+
+- `laravel-react-inertia-dev` — global development rules
+- `styling` — when dealing with CSS, SCSS, Tailwind
+- `examples` — for code reference (frontend, backend)
+
+## Project Documentation
+
+- All comments and documentation must be written in English
+- **`.cursor/memories`** — Persistent knowledge (business rules, architecture, exceptions, findings). Consult before investigating a problem area, when resuming work, or when implementing features that may have domain/architectural constraints; use `rg "^summary:" .cursor/memories/` to scan what’s available.
+
+## Basic Workflow
+
+When a Cursor **plan** has finished executing, consider calling the **review-refactor** subagent to review what was done. Base the decision on the scope of changes (backend and frontend):
+
+- **Skip** the call if there were few or almost no code modifications.
+- **Call review-refactor immediately** at the end of plan execution when there were:
+  - Changes to logic
+  - New components, tests, or modules
+  - New or modified controllers, managers, hooks, or similar structural pieces

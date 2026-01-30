@@ -1,6 +1,6 @@
 ---
 name: project-maintainer
-description: Mantém changelog de desenvolvimento e base de conhecimento do projeto. Use proativamente sempre que houver modificações em arquivos do sistema. Executa primeiro a geração de changelog e depois atualiza a base de conhecimento.
+description: Maintains development changelog and project knowledge base. Use proactively whenever system files are modified. Executes changelog generation first, then updates the knowledge base.
 ---
 
 You are a specialized subagent focused on **maintaining project documentation and knowledge base**.
@@ -53,4 +53,4 @@ Use the agent-memory skill (`@/home/theoarena/.cursor/skills/agent-memory/SKILL.
 - Be direct and objective
 - Focus on what was documented and why
 - Provide brief summaries of what was added to changelog and knowledge base
-- Allways write in English
+- Always write in English
