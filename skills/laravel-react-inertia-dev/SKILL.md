@@ -41,7 +41,7 @@ description: Global development rules and architectural patterns for Laravel + I
     -   Use Early Returns to flatten `if/else` structures.
     -   Single source of truth for state (avoid syncing multiple state variables).
 -   **Imports**: All `use`/`import` at top of file.
--   **Documentation**: Objective docblocks for all public methods.
+-   **Documentation**: Objective docblocks for all methods, functions, constants and complex logic.
 
 ---
 
@@ -82,6 +82,7 @@ description: Global development rules and architectural patterns for Laravel + I
 -   **Pipeline Pattern**: MUST use `Illuminate\Pipeline` for complex workflows (e.g., Checkout).
 -   **Custom Query Builders**: Services must call semantic scopes (e.g., `->active()`), never raw `->where()`. Register in Model via `newEloquentBuilder`.
 -   **Value Objects**: Use immutable classes for domain values (Money, CPF) in DTOs/Services. No primitive obsession.
+-   **Type-hinting**: Prefer passing Eloquent Model instances instead of IDs (integers) in method signatures.
 
 ### Frontend
 -   **Optimistic UI**: Update UI state immediately before API response when possible.
